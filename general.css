@@ -1,0 +1,55 @@
+*{
+    font-family: Arial;
+    background-color: lightskyblue;
+}
+
+.main_navigation {
+    font-family: Arial;
+    font-weight: bold;
+    color: Green;
+    padding-left: 20px;
+}
+
+#showcase {
+    background-image: url("images/car_garage.jpg");
+    background-repeat: no-repeat;
+    background-position: 200px 100px;
+    background-attachment: local;
+    height: 10px;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: 200px 100px;
+
+
+}
+
+
+
+#title a:hover{
+    background-color: pink;
+    /* color:blue;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px greenyellow;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+    text-decoration-style: wavy;
+    /*text-indent: 40px;*/
+    /*word-spacing: 50px;*/
+    /* letter-spacing: 10px; */ 
+
+}
+
+#container {
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+.main_navigation :hover{
+    background-color: pink;
+}

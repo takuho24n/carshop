@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carshop - Contact Us</title>
+    <style>
+        #name:disabled   {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Shop</h1>
+    <nav class="navigation">
+     <a href="index.html">Home</a>
+     <a href="products.html">Products</a>
+     <a href="contact_us.html">Contact Us</a>
+    </nav>
+    <h2>Contact Form</h2>
+    <form>
+        Name
+        <input type="text" id="name" placeholder="Name" required>
+        <br>
+        Phone Number
+        <input type="phonenumber" id="phonenumber" placeholder="Phone Number" required>
+        <br>
+        Email
+        <input type="email" name="personalemail" placeholder="Email" required min="5">
+        <br>
+        Gender
+        <br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" value="no answer">
+        <label for="no answer">No Answer</label>
+        <br>
+        Country
+        <br>
+        <select id="country" name="country">
+            <option value="philippines">Philippines</option>
+            <option value="usa">USA</option>
+            <option value="japan">Japan</option>
+            <option value="taiwan">Taiwan</option>
+        </select>
+        <hr>
+        What kind of car types do you like?
+        <br>
+        <input type="checkbox" name="concern" value="sedan">
+        <label for="concern">Sedan</label>
+        <br>
+        <input type="checkbox" name="concern" value="coupe">
+        <label for="concern">Coupe</label>
+        <br>
+        <input type="checkbox" name="concern" value="mini_vehicle">
+        <label for="concern">Mini Vehicle</label>
+        <br>
+        <input type="checkbox" name="concern" value="minivan">
+        <label for="concern">Minivan</label>
+        <br>
+        <input type="checkbox" name="concern" value="suv">
+        <label for="concern">SUV</label>
+        <hr>
+        <p>Preferred date to visit</p>
+        First Choice
+        <input type="date" id="date" required> 
+        <br>
+        Second Choice
+        <input type="date" id="date" required> 
+        <br>
+        Third Choice
+        <input type="date" id="date" required> 
+        <hr>
+        How did you learn about us?
+        <br>
+        <select id="origin" name="origin" multiple>
+            <option value="tv_ads">TV Ads</option>
+            <option value="fb">Facebook</option>
+            <option value="newspaper">Newspaper</option>
+            <option value="word_of_mouth">Word of mouse</option>
+        </select>
+        <br>
+        <hr>
+        Please attach a copy of your driver license, if you dont mind.
+        <p><label for="contact_file">Attachment</label>
+        <input type="file" name="contact_file">
+        </p>
+        <hr>
+        <textarea name="textarea">If you have any comments or quetions, please write here. 
+        </textarea>
+        <hr>
+        <button type="submit" value="submit_form">Submit Form</button>
+    </form>
+</body>
+</html>
